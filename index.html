@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="https://bcw.blob.core.windows.net/public/img/9977764104160066">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.1.96/css/materialdesignicons.min.css"
+    integrity="sha512-NaaXI5f4rdmlThv3ZAVS44U9yNWJaUYWzPhvlg5SC7nMRvQYV9suauRK3gVbxh7qjE33ApTPD+hkOW78VSHyeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/style/main.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <title>vendr</title>
+</head>
+
+<body>
+  <!-- SECTION -->
+  <header class="container-fluid py-3">
+    <section class="row d-flex bg-dark text-light p-5">
+      <div class="col-6">
+        <span class="ms-2 fs-4">vendr</span>
+      </div>
+      <div class="col-6">
+        <button onclick="app.MoneyController.increaseMoney()">Add $.25</button>
+      </div>
+
+
+    </section>
+
+    </nav>
+  </header>
+
+  <!-- SECTION -->
+  <main class="container-fluid">
+    <section id="snackMenu" class="row">
+      <!-- <div class="col-3">
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1576749872435-ff88a71c1ae2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+            alt="brussels sprouts pic" class="img-fluid">
+          <div class="">
+            <p class="fs-3">Brussels Sprouts</p>
+            <p>$04.25</p>
+            <button>Buy</button>
+          </div>
+        </div>
+      </div> -->
+    </section>
+
+    <section class="row p-5 d-flex justify-content-between">
+      <div class="col-12 ">
+        <p class="fs-3">Total Money: $<span id="totalMoney">0.00</span></p>
+      </div>
+      <div>
+        <p class="fs-3">Total Change: $<span id="totalChange">0.00</span></p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SECTION -->
+  <footer class="bg-dark text-light">
+    <div class="text-center no-select">
+      <p class="mb-0"><small>Made with 💖 by CodeWorks</small></p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.10/dist/sweetalert2.all.min.js"
+    integrity="sha256-hw7v8jZF/rFEdx1ZHepT4D73AFTHLu/P9kEyrNesRyc=" crossorigin="anonymous"></script>
+  <script src="app/App.js" type="module"></script>
+
+</body>
+
+</html>

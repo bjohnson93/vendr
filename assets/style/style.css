@@ -1,0 +1,12 @@
+/* BASIC STYLES HERE */
+.snack-img {
+  width: 25vh;
+  height: 25vh;
+  object-fit: cover;
+  /* width: auto; */
+}
+
+.item-div {
+  width: 25vh;
+  background-color: rgb(174, 201, 218);
+}
